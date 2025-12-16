@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Superstore Sales Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+
+<body>
+
+    <h1>Superstore Sales Dashboard</h1>
+
+
+
+    <section class="kpi-table">
+        <div class="kpi-item">
+            <span class="kpi-label">Total Sales</span>
+            <span class="kpi-value" id="totalSales"></span>
+        </div>
+
+        <div class="kpi-item">
+            <span class="kpi-label">Total Profit</span>
+            <span class="kpi-value" id="totalProfit"></span>
+        </div>
+
+        <div class="kpi-item">
+            <span class="kpi-label">Orders</span>
+            <span class="kpi-value" id="orderCount"></span>
+        </div>
+
+        <div class="kpi-item">
+            <span class="kpi-label">Customers</span>
+            <span class="kpi-value" id="customerCount"></span>
+        </div>
+    </section>
+
+
+    <!-- <section class="chart-row three">
+        <div id="salesTrend" class="chart"></div>
+        <div id="categoryProfit" class="chart"></div>
+        <div id="regionSales" class="chart"></div>
+    </section>
+
+
+    <section class="chart-row two">
+        <div id="top5SubCategory" class="chart"></div>
+        <div id="bottom5SubCategory" class="chart"></div>
+
+    </section>
+
+    <section class="chart-row one">
+        <div id="productScatter" class="chart"></div>
+    </section> -->
+
+    <section class="chart-grid">
+        <div id="salesTrend" class="chart"></div>
+        <div id="categoryProfit" class="chart"></div>
+        <div id="regionSales" class="chart"></div>
+
+        <div id="top5SubCategory" class="chart"></div>
+        <div id="bottom5SubCategory" class="chart"></div>
+        <div id="productScatter" class="chart"></div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
