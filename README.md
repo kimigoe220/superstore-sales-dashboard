@@ -1,3 +1,6 @@
+https://kimigoe220.github.io/superstore-sales-dashboard/datashow.html
+
+
 # Superstore Sales Dashboard
 
 An interactive sales & profit analysis dashboard built with Python and JavaScript.
